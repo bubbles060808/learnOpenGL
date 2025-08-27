@@ -9,4 +9,6 @@ env.Append(LIBPATH = ['./lib'])
 env.Append(LIBS = ['glfw3', 'gdi32'])
 
 # env.Object('glad.c')
-env.Program('learn', ['main.cpp', 'glad.c'])
+
+env.Program('learn', ['1.window.cpp', 'glad.c'])
+
